@@ -6,11 +6,10 @@ import Img3 from '../../assets/img3.png'
 import Img4 from '../../assets/img4.png'
 import Img5 from '../../assets/img5.png'
 import Img6 from '../../assets/img6.png'
-import './title-section.css'
+import '../styles/title-section.css'
 const TitleSection = () => {
   return (
     <section>
-        <Container>
             <Row>
             <Col lg='6' md='6'>
                 <div className="title">
@@ -42,10 +41,10 @@ const TitleSection = () => {
                 <div className="cards ">
                     <div className="ss d-flex"><div className="x"></div>
                 <h1>MSID : ENGAGEMENT VERS L'EXCELLENCE</h1>
-                    <div className="x"></div></div>
+                    <div className="y"></div></div>
                     
                 <div class=" d-flex">
-                    <div class="card-content d-flex gap-3">
+                    <div class="card-content d-flex ">
                         <div class="content">
                         <img src={Img3} alt="" />
                         <h1>Inclusivité</h1>
@@ -74,7 +73,7 @@ const TitleSection = () => {
                 </div>
             </Row>
 
-        </Container>
+        
     </section>
   )
 }

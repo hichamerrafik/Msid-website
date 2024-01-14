@@ -4,6 +4,7 @@
 .logo {
     margin: 0;
     padding: 0;
+    margin-left: 5rem;
 }
 
 .logo img {
@@ -11,15 +12,7 @@
 }
 
 /* Rest of your existing CSS */
-.header {
-    color: #181E4B;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-font-family: Zilla Slab;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
+
 
 .nav__menu {
     margin-left: auto;
@@ -33,9 +26,16 @@ line-height: normal;
 }
 
 .nav__item {
-    margin-right: 20px;
     margin-bottom: 4rem;
-    padding-right: 3rem;
+    color: #181E4B;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Zilla Slab;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: rem;
+    padding-right:9rem ;
 }
 
 .nav__item:last-child {

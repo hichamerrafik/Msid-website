@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Volkhov&display=swap');
 .title h2{
     color: #DF6951 !important;
     font-family: Poppins;
@@ -47,12 +49,14 @@
     color: var(--3rd, #14183E);
     text-align: center;
     font-family: Volkhov;
-    font-size: 50px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
     margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 .card-content{
     display: flex;
@@ -98,5 +102,19 @@ border-radius: 30px 0px 10px 0px;
 background: #DF6951;
 margin: 0.8rem;
 margin-top: 2rem;
+margin-left: 5rem !important;
+
 }
 
+.y{
+    margin-right: 5rem !important;
+    width: 90px;
+    height: 90px;
+    flex-shrink: 0;
+    border-radius: 30px 0px 10px 0px;
+    background: #DF6951;
+    margin: 0.8rem;
+    margin-top: 2rem;
+    }
+    
+    

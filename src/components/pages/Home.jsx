@@ -1,13 +1,13 @@
 import React, {Fragment} from 'react'
 import Header from '../Header/header'
-import TitleSection from '../title-section/TitleSection'
+import TitleSection from '../pages/TitleSection'
+import About_us from './About_us'
 
 const Home = () => {
   return (
     <Fragment>
       <Header/>
-      <TitleSection/>
-      
+      <TitleSection/>      
     </Fragment>
   )
 }
