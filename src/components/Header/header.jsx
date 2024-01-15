@@ -8,19 +8,19 @@ const navlinks = [
    
     {
         display: 'About us',
-        url: '#'
+        url: '#About-us'
     },
     {
         display: 'Admission',
-        url: '#'
+        url: '#admission'
     },
     {
         display: 'Cursus',
-        url: '#'
+        url: '#Cursus'
     },
     {
         display: 'Évènement',
-        url: '#'
+        url: '#Évènement'
     },
 
 
@@ -29,7 +29,7 @@ const navlinks = [
 
 const header = () => {
   return (
-    <header className='header"'>
+    <header className='header '>
             
             <div className="navigation d-flex align-items-center justify-content-between ">
                 <div className="logo">
@@ -37,7 +37,7 @@ const header = () => {
                 </div>
                 <div className="nav">
                     <div className="nav__menu">
-                        <ul className="nav__list  d-flex gap">
+                        <ul className="nav__list  d-flex gap-2">
                         {
                                 navlinks.map((item,index)=>(
                                     <li className="nav__item" key={index}>
@@ -45,7 +45,7 @@ const header = () => {
                                     </li>
                                 ))
                             }
-                           
+                        
                         </ul>
                     </div>
                 </div>

@@ -8,7 +8,7 @@ import Img5 from '../../assets/img5.png'
 import Img6 from '../../assets/img6.png'
 import '../styles/title-section.css'
 const TitleSection = () => {
-  return (
+return (
     <section>
             <Row>
             <Col lg='6' md='6'>
@@ -30,7 +30,7 @@ const TitleSection = () => {
                             <p>De la théorie à la pratique : Données en action, innovation en réaction . <br />
                         MSID , Là Où la logique des étudiants rencontre leur créativité  ! </p>
                     </div>
-                  
+                
                 </Col>
                 <Col>
                 <div className='img2div'>
@@ -44,11 +44,11 @@ const TitleSection = () => {
                     <div className="y"></div></div>
                     
                 <div class=" d-flex">
-                    <div class="card-content d-flex ">
+                    <div class="card-content d-flex gap-4 ">
                         <div class="content">
                         <img src={Img3} alt="" />
                         <h1>Inclusivité</h1>
-                       <p> la diversité est notre force. 
+                    <p> la diversité est notre force. 
                         Nous accueillons et célébrons toutes les voix, y compris celles des étudiants sourds, pour construire un avenir des données inclusif.</p>
                         </div>  
                         <div class="content">
@@ -59,13 +59,13 @@ const TitleSection = () => {
                         <div class="content">
                         <img src={Img5} alt="" />
                         <h1>Adaptabilité</h1>
-                         <p>Face à l'évolution rapide du monde des données, nous formons des professionnels capables de s'adapter et d'innover constamment.</p>
+                    <p>Face à l'évolution rapide du monde des données, nous formons des professionnels capables de s'adapter et d'innover constamment.</p>
                         </div>
                         <div class="content">
                         <img src={Img6} alt="" />
                         <h1>Collaboration</h1>
                         <p>Ensemble, nous formons une communauté d'apprentissage où les idées fusionnent,
-                         les compétences se complètent et chacun contribue à l'épanouissement collectif.</p>
+                            les compétences se complètent et chacun contribue à l'épanouissement collectif.</p>
                         </div>
                     </div>
                     
@@ -75,7 +75,7 @@ const TitleSection = () => {
 
         
     </section>
-  )
+)
 }
 
 export default TitleSection

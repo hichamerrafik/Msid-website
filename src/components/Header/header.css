@@ -24,6 +24,9 @@
     padding: 0;
     display: flex;
 }
+.header{
+    height: 5rem;
+}
 
 .nav__item {
     margin-bottom: 4rem;
@@ -35,7 +38,8 @@
     font-weight: 400;
     line-height: normal;
     padding-left: rem;
-    padding-right:9rem ;
+    margin-right:5rem  !important;
+    padding-right: 6rem;
 }
 
 .nav__item:last-child {

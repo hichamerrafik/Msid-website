@@ -1,5 +1,47 @@
-.cards{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Volkhov&display=swap');
+.tit{
+    color: var(--3rd, #14183E);
+    text-align: center;
+    font-family: Volkhov;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+.card {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 35rem;
+    width: 30rem;
+}
+
+.card img {
+    height: 25rem;
+    width: 25rem;
+    object-fit: cover; /* This property preserves the aspect ratio while covering the container */
+}
+.card-body h2{
+    color: var(--TEXT-CLR, #5E6282);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 124.5%; /* 22.41px */
+    margin-top: 1rem;
+}
+.card-body p{
+    color: var(--TEXT-CLR, #5E6282);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 124.5%; /* 19.92px */
+    margin-top: 2rem;
+}
+.container{
+    padding: 3rem;
 }

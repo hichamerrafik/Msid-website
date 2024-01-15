@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Volkhov&display=swap');
+
+.disc-list {
+    list-style-type: disc;
+    padding: 0.5rem;
+    color: #5E6282;
+font-family: Poppins;
+font-size: 1.2rem;
+font-style: normal;
+font-weight: 400;
+line-height: 124.5%; /* 24.9px */
+}
+
+.item h2{
+    color: var(--TEXT-CLR, #5E6282);
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 124.5%; /* 27.39px */
+}
+.sec{
+    margin-top: 6rem !important;
+}
+
+.item p{
+    font-family: Poppins;
+font-size: 1.2rem;
+font-style: normal;
+font-weight: 400;
+line-height: 124.5%; /* 24.9px */
+color: #5E6282;
+margin-top: 1rem;
+
+}
+.titl{
+    color: var(--3rd, #14183E);
+    text-align: center;
+    font-family: Volkhov;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 7rem;
+
+}
